@@ -1,0 +1,6 @@
+{
+  "baseline_churn": 0.1,
+  "wait_coefficient": 0.02,
+  "wait_hours": 8,
+  "intervene_wait_hours": 2
+}

@@ -1,0 +1,17 @@
+{
+  "lesson": 79,
+  "application": "Causal Assumption Explorer",
+  "mode": "offline_teaching_fixture",
+  "status": "complete",
+  "result": {
+    "model": {
+      "equation": "churn = clamp(baseline + coefficient * wait_hours, 0, 1)",
+      "coefficient_source": "supplied assumption, not estimated causal evidence"
+    },
+    "baseline_prediction": 0.26,
+    "intervention_prediction": 0.14,
+    "model_difference": -0.12,
+    "explanation": "Under the assumed model, reducing wait from 8 to 2 hours changes churn from 0.26 to 0.14. This is not an empirically established causal effect."
+  },
+  "measured_cost_usd": null
+}

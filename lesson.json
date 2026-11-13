@@ -1,0 +1,16 @@
+{
+  "lesson": 79,
+  "title": "Causal Reasoning Agent Architecture",
+  "application": "Causal Assumption Explorer",
+  "purpose": "Compute an intervention under an explicit structural model and keep that hypothetical result separate from observational evidence.",
+  "exercise": "Set the coefficient to zero and compare the intervention. List the confounders an observational study would need to address.",
+  "source_topics": [
+    "00-Arquitectura del agente de razonamiento causal.png",
+    "01-Correlation-Is-Not-Causation.png",
+    "02-Model-Causes-with-a-Graph.png",
+    "03-Interventions-and-Counterfactuals.png",
+    "04-Trace-Effects-in-Code.png",
+    "05-Worked-Example-Support-and-Churn.png",
+    "06-Pitfalls-and-Best-Practices.png"
+  ]
+}
